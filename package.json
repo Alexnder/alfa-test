@@ -1,0 +1,15 @@
+{
+  "name": "alfatest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "http-server": "^0.9.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "server": "http-server -p 3333"
+  },
+  "author": "Alex <opensunset@gmail.com>",
+  "license": "ISC"
+}

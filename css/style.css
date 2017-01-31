@@ -1,0 +1,74 @@
+body {
+  overflow-y: scroll;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.filter-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.filter {
+  padding: 0 10px;
+}
+.filter ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+.price-block {
+  padding: 3px 0;
+}
+.price-block label {
+  width: 32px;
+  display: inline-block;
+}
+
+.checkboxes label {
+  float: left;
+}
+.checkboxes ul {
+  margin: 0;
+  list-style: none;
+  float: left;
+}
+
+.items-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+.item {
+  position: relative;
+  width: 200px;
+  height: 250px;
+  text-align: center;
+}
+.item-price {
+  color: red;
+}
+.item-title {
+  font-weight: bold;
+}
+.item-details {
+  position: absolute;
+  display: none;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  padding-top: 30%;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.91);
+}
+.item:hover .item-details {
+  display: block;
+}
+
+.item img {
+  max-height: 200px;
+  max-width: 200px;
+}
